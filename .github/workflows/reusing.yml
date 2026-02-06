@@ -1,0 +1,8 @@
+name: Reusing
+on:
+  push:
+jobs:
+  call-reusable:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      name: Yash  
